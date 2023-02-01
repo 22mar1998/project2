@@ -1,0 +1,11 @@
+font-family: 'Aboreto', cursive;
+font-family: 'Chivo Mono', monospace;
+font-family: 'Dancing Script', cursive;
+font-family: 'Fira Sans', sans-serif;
+font-family: 'Inter', sans-serif;
+font-family: 'Mukta', sans-serif;
+font-family: 'Oxygen', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Rubik Gemstones', cursive;
+font-family: 'Sassy Frass', cursive;
