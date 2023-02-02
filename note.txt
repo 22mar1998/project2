@@ -9,3 +9,17 @@ font-family: 'Playfair Display', serif;
 font-family: 'Roboto', sans-serif;
 font-family: 'Rubik Gemstones', cursive;
 font-family: 'Sassy Frass', cursive;
+
+
+
+
+
+
+
+
+
+black:#171717
+orange: #FF6B1A
+white-blue: #F3F7FB
+white:#FFFFFF
+blue:#3571C9
