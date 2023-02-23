@@ -1,28 +1,35 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Blisfull</title>
     <!-- bootstrap css  -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <!-- css  -->
     <link rel="stylesheet" href="style.css">
     <!-- aos  -->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <!-- fontawesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- remix icon  -->
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
+    <!-- jquery  -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
 </head>
-  <body>
+
+<body>
     <!-- navbar  -->
     <div id="navbar">
         <div id="logo">
             <div class="logo-img">
                 <img src="img/logo3.png" alt="">
             </div>
-            <h1 >Blissful <span style="font-size: .8rem;">Emerging Technologies Pvt Ltd</span></h1>
+            <h1>Blissful <span style="font-size: .8rem;">Emerging Technologies Pvt Ltd</span></h1>
         </div>
         <div class="nav-links">
             <a href="">links</a>
@@ -34,9 +41,9 @@
         <button class="menu-btn"><img src="icons/menu.png" alt=""></button>
     </div>
     <!-- home  -->
-    <div id="home">
-        <div class="container" >
-            <div class="row">
+    <div id="home" class="py-5">
+        <div class="container">
+            <div class="row home-top">
                 <div class="col-lg-4">
                     <div class="home-img mt-5">
                         <!-- <img src="https://i.pinimg.com/564x/29/a0/71/29a071bc916a0ab21463aec1ea1904fe.jpg" alt=""> -->
@@ -53,41 +60,58 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-8 ms-auto bottom-links" >
-                    <a href="" class="btn btn-dark" >servicess</a>
-                    <a href="" class="btn contact-us-btn" >contact us</a>
+                <div class="col-lg-8 ms-auto bottom-links">
+                    <a href="" class="btn btn-dark">servicess</a>
+                    <a href="" class="btn contact-us-btn">contact us</a>
                 </div>
             </div>
         </div>
         <div class="container">
             <div class="bottom">
-                <div class="row">
-                    <div class=" col-4" style="background-image: url('https://i.pinimg.com/564x/e6/b0/ff/e6b0ff185f2fcaf47b45483c5b6568db.jpg');"></div>
-                    <div class="col-4" style="background-image: url('https://i.pinimg.com/564x/d7/e1/79/d7e179a82cdffe45322517e6c08be6b4.jpg');"></div>
-                    <div class="col-4" style="background-image: url('https://i.pinimg.com/564x/54/f3/07/54f307264be5284f100232ff23b07fef.jpg');"></div>
+                <div class="home-image-gallery">
+                    <img src="img/bg3.jpeg" class="img-fluid" alt="" >
+                    <img src="img/bg5.jpeg" class="img-fluid" alt="" >
+                    <img src="img/bg6.jpeg" class="img-fluid" alt="" >
                 </div>
+                <!-- <div class="row">
+                    <div class=" col-4">
+                        <img src="img/bg3.jpeg" class="img-fluid" alt="" style="height:200px;">
+                    </div>
+                    <div class="col-4">
+                        <img src="img/bg5.jpeg" class="img-fluid" alt="" style="height:200px;">
+
+                    </div>
+                    <div class="col-4">
+                        <img src="img/bg6.jpeg" class="img-fluid" alt="" style="height:200px;">
+
+                    </div>
+                </div> -->
             </div>
         </div>
     </div>
 
     <!-- section 2  -->
     <div id="section-2">
-        <div class="container" >
+        <div class="container">
             <div class="headings">
-                <p data-aos="fade-in" data-aos-duration="1000"  data-aos-offset="300"  data-aos-easing="ease-in-out" data-aos-delay="50">why choose us</p>
+                <p data-aos="fade-in" data-aos-duration="1000" data-aos-offset="300" data-aos-easing="ease-in-out"
+                    data-aos-delay="50">why choose us</p>
             </div>
             <div class="s2-cards py-5">
-                <div class="s2-card" data-aos="flip-left" data-aos-duration="1000"  data-aos-offset="300"  data-aos-easing="ease-in-out" data-aos-delay="50">
+                <div class="s2-card" data-aos="flip-left" data-aos-duration="1000" data-aos-offset="300"
+                    data-aos-easing="ease-in-out" data-aos-delay="50">
                     <span class="quote">"</span>
                     <p> Globally present highly secure cloud servers and relevant infra & infostructure.</p>
                     <span class="quote">"</span>
                 </div>
-                <div class="s2-card" data-aos="flip-left" data-aos-duration="1000"  data-aos-offset="300"  data-aos-easing="ease-in-out" data-aos-delay="50">
+                <div class="s2-card" data-aos="flip-left" data-aos-duration="1000" data-aos-offset="300"
+                    data-aos-easing="ease-in-out" data-aos-delay="50">
                     <span class="quote">"</span>
                     <p>A core team of highly experienced tech experts</p>
                     <span class="quote">"</span>
                 </div>
-                <div class="s2-card" data-aos="flip-left" data-aos-duration="1000"  data-aos-offset="300"  data-aos-easing="ease-in-out" data-aos-delay="50">
+                <div class="s2-card" data-aos="flip-left" data-aos-duration="1000" data-aos-offset="300"
+                    data-aos-easing="ease-in-out" data-aos-delay="50">
                     <span class="quote">"</span>
                     <p>
                         A uniquely wide range of IT services with cutting edge technology and AI driven model.</p>
@@ -101,12 +125,17 @@
 
     <div class="section-3 py-5">
         <div class="container">
-            <div class="headings" >
-                <p data-aos="fade-in" data-aos-duration="1000"  data-aos-offset="300"  data-aos-easing="ease-in-out" data-aos-delay="50">who we are</p>
+            <div class="headings">
+                <p data-aos="fade-in" data-aos-duration="1000" data-aos-offset="300" data-aos-easing="ease-in-out"
+                    data-aos-delay="50">who we are</p>
             </div>
             <div class="row">
                 <div class="col-lg-6 col-md-8 s3-txt">
-                    <p data-aos="fade-in" data-aos-duration="1000"  data-aos-offset="300"  data-aos-easing="ease-in-out" data-aos-delay="50">We're Brainmap - an amalgamation of individuals who believe in connecting businesses and people through infotech and communication technology. We're enthused by the ideas of providing services to people which not only bridge distances but also avail safe and secure assurance of efficient communication.</p>
+                    <p data-aos="fade-in" data-aos-duration="1000" data-aos-offset="300" data-aos-easing="ease-in-out"
+                        data-aos-delay="50">We're Brainmap - an amalgamation of individuals who believe in connecting
+                        businesses and people through infotech and communication technology. We're enthused by the ideas
+                        of providing services to people which not only bridge distances but also avail safe and secure
+                        assurance of efficient communication.</p>
                 </div>
             </div>
 
@@ -117,7 +146,8 @@
     <div class="section-4 py-5 ">
         <div class="container">
             <div class="headings">
-                <p data-aos="fade-in" data-aos-duration="1000"  data-aos-offset="300"  data-aos-easing="ease-in-out" data-aos-delay="50">what we do </p>
+                <p data-aos="fade-in" data-aos-duration="1000" data-aos-offset="300" data-aos-easing="ease-in-out"
+                    data-aos-delay="50">what we do </p>
                 <!-- <span style="color: black; font-size: 2rem;">Our exceptional panel of services consists of:</span> -->
             </div>
         </div>
@@ -126,11 +156,14 @@
                 <div class="col-lg-6 col-md-6 s4-txt">
                     <h1><i class="ri-discuss-line"></i></h1>
                     <h6>Mass Texting, also known as Bulk Messaging</h6>
-                    <p>Looking for a software that manages your communication, like SMS and voice calls effectively? We at Brainmap do just that – we provide cloud based software -as-a-service (SaaS) for small and medium businesses and enterprises. Ranging from transactional messages to conversational API service messaging, we do it all.</p>
+                    <p>Looking for a software that manages your communication, like SMS and voice calls effectively? We
+                        at Brainmap do just that – we provide cloud based software -as-a-service (SaaS) for small and
+                        medium businesses and enterprises. Ranging from transactional messages to conversational API
+                        service messaging, we do it all.</p>
                     <a href="" class="btn"><i class="ri-arrow-right-line"></i> read more</a>
                 </div>
 
-                
+
                 <div class="col-lg-6 col-md-6 s4-txt hide">
                 </div>
                 <div class="col-lg-6 col-md-6 s4-txt hide"></div>
@@ -138,15 +171,19 @@
                 <div class="col-lg-6 col-md-6 s4-txt ">
                     <h1><i class="ri-wifi-line"></i></h1>
                     <h6>Voiceover Internet Protocol Services</h6>
-                    <p>Landlines are a talk of the past and internet is now running the world. With high speed internet connecting people from far and wide, we have our own VoIP services that connect you and your business with other businesses and people with zero lag. Now, distance won’t stop you from growing your business.</p>
+                    <p>Landlines are a talk of the past and internet is now running the world. With high speed internet
+                        connecting people from far and wide, we have our own VoIP services that connect you and your
+                        business with other businesses and people with zero lag. Now, distance won’t stop you from
+                        growing your business.</p>
                     <a href="" class="btn"><i class="ri-arrow-right-line"></i> read more</a>
                 </div>
-                
-                
+
+
                 <div class="col-lg-6 col-md-6 s4-txt">
                     <h1><i class="ri-user-4-line"></i></h1>
                     <h6>Manpower Enlistment Services</h6>
-                    <p>We hire for you, and we hire right! We offer customized, research based high quality training, assessment and hiring solutions for businesses who want to grow.</p>
+                    <p>We hire for you, and we hire right! We offer customized, research based high quality training,
+                        assessment and hiring solutions for businesses who want to grow.</p>
                     <a href="" class="btn"><i class="ri-arrow-right-line"></i> read more</a>
                 </div>
                 <div class="col-lg-6 col-md-6 s4-txt hide"></div>
@@ -156,7 +193,10 @@
                 <div class="col-lg-6 col-md-6 s4-txt">
                     <h1><i class="ri-user-voice-line"></i></h1>
                     <h6>Voiceover Internet Protocol Services</h6>
-                    <p>Landlines are a talk of the past and internet is now running the world. With high speed internet connecting people from far and wide, we have our own VoIP services that connect you and your business with other businesses and people with zero lag. Now, distance won’t stop you from growing your business.</p>
+                    <p>Landlines are a talk of the past and internet is now running the world. With high speed internet
+                        connecting people from far and wide, we have our own VoIP services that connect you and your
+                        business with other businesses and people with zero lag. Now, distance won’t stop you from
+                        growing your business.</p>
                     <a href="" class="btn"><i class="ri-arrow-right-line"></i> read more</a>
                 </div>
 
@@ -169,14 +209,16 @@
     <div class="section-5 py-5 ">
         <div class="container">
             <div class="headings">
-                <p data-aos="fade-in" data-aos-duration="1000"  data-aos-offset="300"  data-aos-easing="ease-in-out" data-aos-delay="50">company profile</p>
+                <p data-aos="fade-in" data-aos-duration="1000" data-aos-offset="300" data-aos-easing="ease-in-out"
+                    data-aos-delay="50">company profile</p>
             </div>
         </div>
         <div class="container my-5">
             <div class="row">
                 <div class="col-lg-4 hide" style="height: 100px; background-color: #F5BBBA;"></div>
                 <div class="col-lg-8 s5-txt">
-                    <p data-aos="fade-in" data-aos-duration="1000"  data-aos-offset="300"  data-aos-easing="ease-in-out" data-aos-delay="50">We believe in mapping endless <br> possibilities…</p>
+                    <p data-aos="fade-in" data-aos-duration="1000" data-aos-offset="300" data-aos-easing="ease-in-out"
+                        data-aos-delay="50">We believe in mapping endless <br> possibilities…</p>
                 </div>
             </div>
         </div>
@@ -186,14 +228,14 @@
     <div class="section-6 py-5">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6 col-md-4 p-3 s6-box" >
+                <div class="col-lg-6 col-md-4 p-3 s6-box">
                     <div class="s6-img">
                         <img src="img/logo3.png" alt="">
                     </div>
                     <h3>Have questions?</h3>
                     <a href="">Get in touch with us!</a>
                 </div>
-                <div class="col-lg-6 col-md-8  s6-box" >
+                <div class="col-lg-6 col-md-8  s6-box">
                     <div class="row">
                         <div class="col-12 py-3" style="border-bottom: 1px solid #3F5DE7;">
                             <h3>Address</h3>
@@ -209,25 +251,39 @@
         </div>
 
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-<!-- aos  -->
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-      AOS.init();
-    </script>
+                            <script src="
+                            https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+                            integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+                            crossorigin="anonymous">
+                            </script>
+                            <!-- aos  -->
+                            <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+                            <script>
+                                AOS.init();
+                            </script>
 
-    <!-- gsap  -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+                            <!-- gsap  -->
+                            <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
 
-    <script>
-        const timeline = gsap.timeline({defaults:{duration:1}})
-        timeline
-        .from('#navbar',{y:-100})
-        .from('#home',{opacity:0})
-        .from('.nav-links a',{opacity:0,stagger:.3})
+                            <script>
+                                const timeline = gsap.timeline({ defaults: { duration: 1 } })
+                                timeline
+                                    .from('#navbar', { y: -100 })
+                                    .from('#home', { opacity: 0 })
+                                    .from('.nav-links a', { opacity: 0, stagger: .3 })
 
 
-    </script>
+                            </script>
 
-  </body>
+                            <!-- jquery  -->
+                            <script>
+                                $(document).ready(function () {
+                                    $(".menu-btn").click(function () {
+                                        $(".nav-links").toggle(1000);
+                                    });
+                                });
+                            </script>
+
+</body>
+
 </html>
