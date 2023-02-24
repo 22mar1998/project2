@@ -50,11 +50,11 @@ a{
     display: flex;
     align-items: center;
     color: #3571C9;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 .logo-img{
     /* width: 100px; */
-    height: 100px;
+    height: 50px;
 }
 .logo-img img{
     width: 100%;
