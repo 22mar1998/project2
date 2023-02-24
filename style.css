@@ -350,6 +350,9 @@ a{
 }
 .s4-txt{
     min-height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     /* border: 1px solid #3F5DE7; */
     padding: 5%;
 }
@@ -376,6 +379,7 @@ a{
     object-fit: contain;
 }
 .s4-txt a{
+    width: 120px;
     color: white;
     /* background-color: black; */
     background-color:#D0098D;
@@ -544,6 +548,13 @@ a{
 
     .s6-box{
         border-style: none;
+    }
+
+    .section-6{
+        text-align: center;
+    }
+    .s6-img{
+        margin: auto;
     }
 
   }
