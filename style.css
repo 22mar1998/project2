@@ -165,7 +165,7 @@ a{
     width: 50%;
     height: 80vh;
     float: right;
-    background-image: url('https://images.pexels.com/photos/364388/pexels-photo-364388.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-image: url('img/hero-img.jpeg');
     background-size: cover;
     background-position: center;
     /* filter:blur(2px); */
@@ -299,6 +299,7 @@ a{
 #section-2{
     min-height: 50vh;
     background-color: #F3F7FB;
+
 
 }
 
