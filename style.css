@@ -40,7 +40,7 @@ a{
     align-items: center;
     height: 8vh;
     padding: 5px 10px;
-    z-index: 999;
+    z-index: 100;
     justify-content: space-between;
 }
 
@@ -75,21 +75,42 @@ a{
     color: white;
     /* transition: .6s ease-in-out; */
     text-transform: capitalize;
-
+    
 }
 .nav-links a:hover{
     /* color: #FF6B1A; */
     color: #3571C9;
 }
 .menu-btn{
+    z-index: 100;
     border-style: none;
     background-color: transparent;
     cursor: pointer;
     display: none;
     width: 40px;
     height: 40px ;
+    font-size: 2.5rem;
+    color: #3571C9;
 }
 .menu-btn img{
+    width: 80%;
+    height: 80%;
+    object-fit: contain;
+}
+.menu-btn-close{
+    display: none;
+    font-size: 2.5rem;
+    color: white;
+    /* z-index: 100; */
+    border-style: none;
+    background-color: transparent;
+    /* background-color: white; */
+    cursor: pointer;
+    /* display: none; */
+    width: 40px;
+    height: 40px ;
+}
+.menu-btn-close img{
     width: 80%;
     height: 80%;
     object-fit: contain;
@@ -330,6 +351,7 @@ a{
 
 /* section 3  */
 .section-3{
+    /* background-color: transparent; */
 }
 .s3-txt{
     /* font-size: 2rem; */
@@ -437,7 +459,8 @@ a{
 }
 
 .s6-box{
-    border: 1px solid #3F5DE7; min-height: 200px;
+    border: 1px solid #3F5DE7;
+     min-height: 200px;
 }
 
 #back-imge{
@@ -445,8 +468,8 @@ a{
     height: 100vh;
     position: fixed;
     top: 0;
-    left: 0;
-    /* background-color: red; */
+    right: 0;
+    background-color: red;
     background-image: url('img/back-img.jpg');
     background-size: cover;
     background-position: center;
@@ -496,27 +519,35 @@ a{
         display: none;
         /* border: 1px solid black; */
         position: fixed;
-        background-color: #3571C9;
+        background-color: #0E0834;
         top: 0;
-        right: 0;
+        right:0;
         width: 100%;
         height: 100vh;
         flex-direction: column;
+        z-index: 999;
+        padding: 10px 20px;
+    }
+    .menu-btn-close{
+        display: inline-block;
+        text-align: end;
+        /* display: none; */
     }
     .nav-links a{
         display: block;
-        text-align: center;
         margin: 20px 0px;
         color: #DEDCE1;
         font-weight: bold;
         text-transform: capitalize;
+        font-size: 2rem;
     }
     #logo{
         width: 80%;
     }
     .menu-btn{
+        /* z-index: -100; */
         display: block;
-        z-index: 999;
+        /* z-index: 999; */
     }
 }
 
