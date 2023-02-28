@@ -250,8 +250,12 @@ a{
     text-align: center;
     flex-direction: column;
     box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+    /* background-color: #afc9f0; */
+    background-color: #0E0834;
+    color: white;
+    border-radius: 20px;
 
-    color: #0E0834;
+    /* color: #0E0834; */
 }
 .quote{
     font-size: 5rem;
@@ -313,11 +317,11 @@ a{
     object-fit: contain;
 }
 .s4-txt a{
-    width: 150px;
+    width: 130px;
     color: white;
     /* background-color: black; */
     background-color:#D0098D;
-    padding: 10px 20px;
+    padding: 10px 15px;
     border-radius: 20px;
     text-transform: capitalize;
 }
