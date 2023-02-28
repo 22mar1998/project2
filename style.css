@@ -259,11 +259,15 @@ a{
 
 /* section 3  */
 .section-3{
-    /* background-color: transparent; */
+    background-color: #101025;
+}
+.section-3 .headings p{
+    color: white;
 }
 .s3-txt{
     /* font-size: 2rem; */
-    color: #0E0834;
+    /* color: #0E0834; */
+    color: white;
 
 
 }
@@ -309,7 +313,7 @@ a{
     object-fit: contain;
 }
 .s4-txt a{
-    width: 120px;
+    width: 150px;
     color: white;
     /* background-color: black; */
     background-color:#D0098D;
@@ -332,6 +336,10 @@ a{
 
 .section-5 {
     min-height: 60vh;
+    background-color: #0e0834;
+}
+.section-5 .headings p{
+    color: white;
 }
 .s5-txt p{
     /* font-size: 2rem; */
@@ -342,7 +350,7 @@ a{
 
 .section-6{
     /* background-color: #F3F7FB; */
-    background-color: #0E0834;
+    background-color: #0e0834;
 
 }
 .s6-img{
