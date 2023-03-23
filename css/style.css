@@ -187,7 +187,8 @@ a{
     width: 50%;
     height: 80vh;
     float: right;
-    background-image: url('img/hero-img.jpeg');
+    /* background-image: url('img/heroimg.jpeg'); */
+    background-image: url("../img/heroimg.jpeg");
     background-size: cover;
     background-position: center;
     /* filter:blur(2px); */
