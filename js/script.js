@@ -1,12 +1,12 @@
 // gsap (animations)
 
-const timeline = gsap.timeline({ defaults: { duration: 1.5 } })
+const timeline = gsap.timeline({ defaults: { duration: 1 } })
 timeline
     .from('#logo', { y: -100 })
     .from('.hero-text', { opacity: 0 })
     .from('.hero-img', { opacity: 0 })
-
     .from('.nav-links a', { opacity: 0, stagger: .3 })
+
 
 
 
@@ -24,8 +24,8 @@ $(document).ready(function () {
     });
 });
 
-$(document).ready(function () {
-    $(".nav-links a").click(function () {
-        $(".nav-links").hide();
-    });
-});
+// $(document).ready(function () {
+//     $(".nav-links a").click(function () {
+//         $(".nav-links").hide();
+//     });
+// });
